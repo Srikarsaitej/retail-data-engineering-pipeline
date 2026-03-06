@@ -1,22 +1,44 @@
-
-RETAIL DATA ENGINEERING & MACHINE LEARNING PIPELINE
+# Retail Data Engineering Pipeline with Analytics Dashboard
 
 ## Project Overview
 
-This project demonstrates a complete **Retail Data Engineering Pipeline** built using Python.
-The pipeline performs **data ingestion, cleaning, feature engineering, database storage, analysis, visualization, and machine learning modeling**.
+This project demonstrates an **end-to-end Retail Data Engineering Pipeline** built using Python.
+The system processes retail transaction data, performs data cleaning and feature engineering, trains machine learning models, and provides an **interactive analytics dashboard** for business insights.
 
-The goal of this project is to simulate an **industry-level data pipeline used in retail analytics systems**.
+The dashboard allows users to explore sales performance, product trends, and customer insights using interactive visualizations.
+
+Dataset contains **500k+ retail transactions**.
 
 ---
 
-# Project Architecture
+## Project Architecture
 
 ```
-retail-data-engineering-project
+Retail Dataset (CSV)
+        ↓
+Data Ingestion
+        ↓
+Data Cleaning
+        ↓
+Feature Engineering
+        ↓
+Database Storage
+        ↓
+Data Analysis
+        ↓
+Machine Learning Models
+        ↓
+Streamlit Analytics Dashboard
+```
+
+---
+
+## Project Structure
+
+```
+retail-data-engineering-pipeline
 │
 ├── data
-│   ├── retail_dataset.csv
 │   └── transformed_retail.csv
 │
 ├── scripts
@@ -24,150 +46,168 @@ retail-data-engineering-project
 │   ├── clean_data.py
 │   ├── feature_engineering.py
 │   ├── database_load.py
-│   ├── analysis.py
-│   ├── visualization.py
+│   ├── data_analysis.py
+│   ├── data_visualization.py
 │   ├── ml_models.py
 │   └── pipeline.py
 │
-├── logs
-│   └── pipeline.log
-│
-└── README.md
+├── dashboard.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# Technologies Used
+## Data Engineering Pipeline
+
+The project includes the following pipeline stages:
+
+### 1. Data Ingestion
+
+Load raw retail dataset from CSV.
+
+### 2. Data Cleaning
+
+* Handle missing values
+* Remove invalid transactions
+* Data formatting
+
+### 3. Feature Engineering
+
+* Create **TotalAmount**
+* Extract **Month** from invoice date
+* Generate useful analytical features
+
+### 4. Database Storage
+
+Processed data can be stored in a database for scalable analytics.
+
+### 5. Data Analysis
+
+Explore key business insights such as:
+
+* monthly sales
+* top countries
+* product demand
+* customer activity
+
+### 6. Machine Learning Models
+
+The following models are trained to analyze sales patterns:
+
+* Linear Regression
+* Decision Tree
+* Random Forest
+* Support Vector Machine
+* Naive Bayes (sales category classification)
+
+---
+
+## Analytics Dashboard
+
+The project includes an **interactive dashboard built using Streamlit and Plotly**.
+
+### Dashboard Features
+
+* KPI metrics for business performance
+* Country filter
+* Month filter
+* Monthly sales trend visualization
+* Top selling products analysis
+* Country-wise sales analysis
+* Sales distribution insights
+* Interactive charts with zoom and hover
+
+All charts update **in real-time based on filter selections**.
+
+---
+
+## Dashboard Preview
+
+
+![Retail Dashboard](dashboard.png)
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Srikarsaitej/retail-data-engineering-pipeline.git
+```
+
+Move into project folder:
+
+```bash
+cd retail-data-engineering-pipeline
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run Data Pipeline
+
+Execute the complete pipeline:
+
+```bash
+python scripts/pipeline.py
+```
+
+---
+
+## Run the Dashboard
+
+Start the Streamlit dashboard:
+
+```bash
+streamlit run dashboard.py
+```
+
+Open browser:
+
+```
+http://localhost:8501
+```
+
+---
+
+## Technologies Used
 
 * Python
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
-* Scikit-learn
-* MySQL
-* VS Code
+* Scikit-Learn
+* Streamlit
+* Plotly
+* Git
+* GitHub
 
 ---
 
-# Dataset Information
+## Key Highlights
 
-The dataset contains **retail transaction records** including:
-
-* Invoice
-* StockCode
-* Description
-* Quantity
-* InvoiceDate
-* Price
-* Customer ID
-* Country
-
-Total Records: **500,000+**
+* End-to-end **Data Engineering Pipeline**
+* Machine learning models for retail analytics
+* Interactive **business dashboard**
+* Real-time filtering and insights
+* Scalable project structure
 
 ---
 
-# Data Engineering Pipeline
+## Author
 
-The pipeline consists of the following stages:
+**Srikar Sai Tej**
 
-### 1️⃣ Data Ingestion
-
-Loads raw retail data into the pipeline.
-
-### 2️⃣ Data Cleaning
-
-Handles missing values and removes invalid records.
-
-### 3️⃣ Feature Engineering
-
-Creates new features such as:
-
-* Month
-* TotalAmount
-
-### 4️⃣ Database Storage
-
-Stores processed data in a **MySQL database**.
-
-### 5️⃣ Data Analysis
-
-Performs exploratory analysis on sales data.
-
-### 6️⃣ Data Visualization
-
-Generates charts to understand:
-
-* Monthly sales trends
-* Country-wise sales
-* Product demand
-
-### 7️⃣ Machine Learning Models
-
-Regression Models:
-
-* Linear Regression
-* Decision Tree Regressor
-* Random Forest Regressor
-* Support Vector Regression
-
-Classification Model:
-
-* Naive Bayes (Sales Category Prediction)
+GitHub:
+https://github.com/Srikarsaitej
 
 ---
-
-# Automation Pipeline
-
-The entire workflow is automated using a **Python pipeline script**.
-
-Run the full pipeline with:
-
-```
-python scripts/pipeline.py
-```
-
-This will execute all steps sequentially.
-
----
-
-# Logging System
-
-Pipeline logs are saved in:
-
-```
-logs/pipeline.log
-```
-
-Logs help track pipeline execution and errors.
-
----
-
-# Sample Output
-
-Example model results:
-
-Linear Regression
-R2 Score: 0.66
-
-Decision Tree
-R2 Score: 0.74
-
-Random Forest
-R2 Score: 0.75
-
-Naive Bayes
-Accuracy: 0.99
-
----
-
-# Project Highlights
-
-* End-to-end **Data Engineering pipeline**
-* Automated ETL workflow
-* Data analysis and visualization
-* Multiple machine learning models
-* Logging and error handling
-
----
-
