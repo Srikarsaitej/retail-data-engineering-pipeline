@@ -1,0 +1,57 @@
+2026-03-06 18:03:29,601 - INFO - Pipeline Started
+2026-03-06 18:03:29,602 - INFO - Starting Data Ingestion
+2026-03-06 18:03:32,256 - INFO - Data Ingestion completed successfully
+2026-03-06 18:03:32,257 - INFO - Starting Data Cleaning
+2026-03-06 18:03:38,136 - INFO - Data Cleaning completed successfully
+2026-03-06 18:03:38,136 - INFO - Starting Feature Engineering
+2026-03-06 18:03:45,656 - INFO - Feature Engineering completed successfully
+2026-03-06 18:03:45,657 - INFO - Starting Database Loading
+2026-03-06 18:03:45,745 - ERROR - Database Loading failed
+2026-03-06 18:04:51,112 - INFO - Pipeline Started
+2026-03-06 18:04:51,114 - INFO - Starting Data Ingestion
+2026-03-06 18:04:54,621 - INFO - Data Ingestion completed successfully
+2026-03-06 18:04:54,622 - INFO - Starting Data Cleaning
+2026-03-06 18:05:01,247 - INFO - Data Cleaning completed successfully
+2026-03-06 18:05:01,248 - INFO - Starting Feature Engineering
+2026-03-06 18:05:09,355 - INFO - Feature Engineering completed successfully
+2026-03-06 18:05:09,355 - INFO - Starting Database Loading
+2026-03-06 18:05:14,941 - INFO - Database Loading completed successfully
+2026-03-06 18:05:14,941 - INFO - Starting Data Analysis
+2026-03-06 18:05:18,545 - INFO - Data Analysis completed successfully
+2026-03-06 18:05:18,545 - INFO - Starting Data Visualization
+2026-03-06 18:05:45,620 - INFO - Data Visualization completed successfully
+2026-03-06 18:05:45,622 - INFO - Starting Machine Learning Models
+2026-03-06 18:06:15,248 - INFO - Machine Learning Models completed successfully
+2026-03-06 18:06:15,248 - INFO - Pipeline Completed Successfully
+2026-03-06 21:15:56,907 - INFO - Pipeline Started
+2026-03-06 21:15:56,908 - INFO - Starting Data Ingestion
+2026-03-06 21:16:00,243 - INFO - Data Ingestion completed successfully
+2026-03-06 21:16:00,243 - INFO - Starting Data Cleaning
+2026-03-06 21:16:02,730 - INFO - Data Cleaning completed successfully
+2026-03-06 21:16:02,732 - INFO - Starting Feature Engineering
+2026-03-06 21:16:05,892 - INFO - Feature Engineering completed successfully
+2026-03-06 21:16:05,892 - INFO - Starting Database Loading
+2026-03-06 21:16:07,891 - INFO - Database Loading completed successfully
+2026-03-06 21:16:07,891 - INFO - Starting Data Analysis
+2026-03-06 21:16:09,227 - INFO - Data Analysis completed successfully
+2026-03-06 21:16:09,227 - INFO - Starting Data Visualization
+2026-03-06 21:16:33,624 - INFO - Data Visualization completed successfully
+2026-03-06 21:16:33,624 - INFO - Starting Machine Learning Models
+2026-03-06 21:16:49,665 - INFO - Machine Learning Models completed successfully
+2026-03-06 21:16:49,665 - INFO - Pipeline Completed Successfully
+2026-03-06 21:35:14,873 - INFO - Pipeline Started
+2026-03-06 21:35:14,873 - INFO - Starting Data Ingestion
+2026-03-06 21:35:15,985 - INFO - Data Ingestion completed successfully
+2026-03-06 21:35:15,986 - INFO - Starting Data Cleaning
+2026-03-06 21:35:18,467 - INFO - Data Cleaning completed successfully
+2026-03-06 21:35:18,468 - INFO - Starting Feature Engineering
+2026-03-06 21:35:21,793 - INFO - Feature Engineering completed successfully
+2026-03-06 21:35:21,793 - INFO - Starting Database Loading
+2026-03-06 21:35:24,851 - INFO - Database Loading completed successfully
+2026-03-06 21:35:24,851 - INFO - Starting Data Analysis
+2026-03-06 21:35:26,863 - INFO - Data Analysis completed successfully
+2026-03-06 21:35:26,864 - INFO - Starting Data Visualization
+2026-03-06 21:35:44,447 - INFO - Data Visualization completed successfully
+2026-03-06 21:35:44,447 - INFO - Starting Machine Learning Models
+2026-03-06 21:35:59,114 - INFO - Machine Learning Models completed successfully
+2026-03-06 21:35:59,115 - INFO - Pipeline Completed Successfully
