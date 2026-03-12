@@ -64,6 +64,5 @@ top_customers = pd.read_sql(query4, conn)
 print("\nTop Customers:")
 print(top_customers)
 
-
 # Close connection
 conn.close()

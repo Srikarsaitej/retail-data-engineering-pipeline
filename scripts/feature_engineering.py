@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Load cleaned dataset
 df = pd.read_csv("data/cleaned_retail.csv")
 
 print("Dataset loaded for feature engineering")
